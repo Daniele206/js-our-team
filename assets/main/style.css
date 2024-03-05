@@ -7,3 +7,7 @@
 .my_w{
   width: 35%;
 }
+
+.my_min_w{
+  min-width: 350px;
+}
