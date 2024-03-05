@@ -10,7 +10,7 @@ const team = [
   {
     name: 'Angela Caroll',
     assignament: 'Chief Editor',
-    img: "./assets/img/angela-caroll-chieff-editor.jpg",
+    img: "./assets/img/angela-caroll-chief-editor.jpg",
   },
   {
     name: 'Walter Gordon',
@@ -25,7 +25,7 @@ const team = [
   {
     name: 'Scott Estrada',
     assignament: 'Developper',
-    img: "./assets/img/scott-estraqda-developper.jpg",
+    img: "./assets/img/scott-estrada-developer.jpg",
   },
   {
     name: 'Barbara Ramos',
@@ -40,7 +40,8 @@ for(let parter of team){
   <ul>
     <li>${parter.name}</li>
     <li>${parter.assignament}</li>
-    <li>${parter.img}</li>
   </ul>
+  <img src="${parter.img}">
+  <br>
   `
 }
