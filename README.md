@@ -33,16 +33,23 @@ Organizzare i singoli membri in card/schede
 
 **Dati:**
 
-- Wayne Barnett / Founder & CEO / wayne-barnett-founder-ceo.jpg
+1. Wayne Barnett / Founder & CEO / wayne-barnett-founder-ceo.jpg
 
-- Angela Caroll	/ Chief Editor / angela-caroll-chief-editor.jpg
+2. Angela Caroll	/ Chief Editor / angela-caroll-chief-editor.jpg
 
-- Walter Gordon /	Office Manager / walter-gordon-office-manager.jpg
+3. Walter Gordon /	Office Manager / walter-gordon-office-manager.jpg
 
-- Angela Lopez / Social Media Manager / angela-lopez-social-media-manager.jpg
+4. Angela Lopez / Social Media Manager / angela-lopez-social-media-manager.jpg
 
-- Scott Estrada /	Developer / scott-estrada-developer.jpg
+5. Scott Estrada /	Developer / scott-estrada-developer.jpg
 
-- Barbara Ramos /	Graphic Designer / barbara-ramos-graphic-designer.jpg
+6. Barbara Ramos /	Graphic Designer / barbara-ramos-graphic-designer.jpg
 
 ## Svolgimento:
+1. Creare un arrray.
+2. Inserire gli oggetti nell'array.
+3. Dare tutte le proprietà agli oggetti.
+4. Stampare tutti gli oggetti su console.
+5. Stampare tutti gli oggetti sul DOM.
+6. **Bonus1:** Far diventare la stringa della foto un img.
+7. **Bonus2:** Modificare l'estetica della pagina organizzando le informazzioni in delle schede.
