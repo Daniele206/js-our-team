@@ -36,12 +36,12 @@ const team = [
 
 for(let parter of team){
   listContainer.innerHTML += `
-  <span>Partner</span>
-  <ul>
-    <li>${parter.name}</li>
-    <li>${parter.assignament}</li>
-  </ul>
-  <img src="${parter.img}">
-  <br>
+  <div class="card w-25 my_h mx-3 my-2" style="width: 18rem;">
+    <img src="${parter.img}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h4 class="card-title fw-bold text-center">${parter.name}</h4>
+      <div class="card-text text-center">${parter.assignament}</div>
+    </div>
+  </div>
   `
 }
