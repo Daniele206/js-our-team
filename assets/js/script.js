@@ -1,3 +1,6 @@
+// Element
+const listContainer = document.querySelector('.list_container');
+
 const team = [
   {
     name: 'Wayne Barnet',
@@ -32,7 +35,12 @@ const team = [
 ];
 
 for(let parter of team){
-  console.log(parter.name);
-  console.log(parter.assignament);
-  console.log(parter.img);
+  listContainer.innerHTML += `
+  <span>Partner</span>
+  <ul>
+    <li>${parter.name}</li>
+    <li>${parter.assignament}</li>
+    <li>${parter.img}</li>
+  </ul>
+  `
 }
