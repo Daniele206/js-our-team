@@ -30,3 +30,9 @@ const team = [
     img: "./assets/img/barbara-ramos-graphic-designer.jpg",
   },
 ];
+
+for(let parter of team){
+  console.log(parter.name);
+  console.log(parter.assignament);
+  console.log(parter.img);
+}
